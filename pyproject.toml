@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "phylogeny"
+version = "0.1.0"
+description = "Trying to make a phylogenetic tree for the order agaricales."
+authors = ["Guy Paterson-Jones <guy.paterson.jones@gmail.com>"]
+license = "GUY"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+biopython = "^1.83"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
